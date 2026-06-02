@@ -1,0 +1,34 @@
+-- TOP 5 CPU PROCESSES --
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ubuntu    117348  0.0  0.8  18412  7816 ?        S    14:01   0:01 sshd-session: ubuntu@pts/0
+root      117221  0.0  0.0      0     0 ?        I    13:50   0:00 [kworker/1:0-events]
+root      117245  0.0  0.0      0     0 ?        I    14:00   0:00 [kworker/0:2-events]
+ubuntu    117351  0.0  0.5   9280  5448 pts/0    Ss   14:01   0:00 -bash
+root         176  0.0  0.9 279208  8660 ?        SLsl May09   2:38 /usr/sbin/multipathd -d -s
+-- DISK USAGE --
+Filesystem       Size  Used Avail Use% Mounted on
+/dev/root        6.7G  4.9G  1.8G  74% /
+tmpfs            455M     0  455M   0% /dev/shm
+tmpfs            182M  988K  181M   1% /run
+efivarfs         128K  3.1K  120K   3% /sys/firmware/efi/efivars
+tmpfs            455M     0  455M   0% /tmp
+none             1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none             1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+/dev/nvme0n1p13  989M  101M  822M  11% /boot
+/dev/nvme0n1p15  105M  6.3M   99M   7% /boot/efi
+none             1.0M     0  1.0M   0% /run/credentials/systemd-networkd.service
+none             1.0M     0  1.0M   0% /run/credentials/serial-getty@ttyS0.service
+none             1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs             91M   48K   91M   1% /run/user/1000
+-- MEMORY USAGE --
+               total        used        free      shared  buff/cache   available
+Mem:           908Mi       378Mi       135Mi       2.9Mi       522Mi       530Mi
+Swap:             0B          0B          0B
+-- UPTIME & LOAD AVERAGE --
+ 14:29:12 up 23 days,  3:09,  2 users,  load average: 0.00, 0.00, 0.00
+System report - 
+Status: All systems operational
+System report - Mon Jun  1 20:03:44 UTC 2026
+System report - 
+System report - Mon Jun  1 20:04:08 UTC 2026
+Status: All systems operational
