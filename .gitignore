@@ -1,0 +1,19 @@
+# Ignore log files
+*.log
+
+# Ignore backup files
+*.bak
+*.swp
+
+# Ignore sensitive files
+*.pem
+*.key
+secrets/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore temp files
+*.tmp
+/backups/
