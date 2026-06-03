@@ -17,3 +17,4 @@ Thumbs.db
 # Ignore temp files
 *.tmp
 /backups/
+week1/scripts/preciousfile.txt
